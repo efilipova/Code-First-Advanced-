@@ -1,18 +1,18 @@
-﻿namespace _01.Local_Store
+﻿namespace _01_02.Local_Store
 {
     public class Product
     {
-        public Product(string name, string distributorName, string description, decimal price)
+        public Product()
         {
-            this.Name = name;
-            this.DistributorName = distributorName;
-            this.Description = description;
-            this.Price = price;
         }
         public int ProductId { get; set; }
         public string Name { get; set; }
         public string DistributorName { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
+
+        //2. Local Store Improvement (ctrl+k+c for p.01)
+        public double Weight { get; set; }
+        public double Quantity { get; set; }
     }
 }

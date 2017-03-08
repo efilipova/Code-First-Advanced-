@@ -1,4 +1,4 @@
-namespace _01.Local_Store
+namespace _01_02.Local_Store
 {
     using System;
     using System.Data.Entity;
@@ -13,10 +13,4 @@ namespace _01.Local_Store
 
          public virtual DbSet<Product> Products { get; set; }
     }
-
-    //public class MyEntity
-    //{
-    //    public int Id { get; set; }
-    //    public string Name { get; set; }
-    //}
 }
